@@ -5,29 +5,22 @@ body {
     font-family: 'Josefin Sans';
 }
 
-.menu {
-    margin-top: 0;
-    font-size: 25px;
-    list-style: none;
-    font-weight: bold;
-    padding: 25px 30px 50px 30px;
+nav {
     background-color: #1E90FF;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
-    text-decoration: none;
-    color: #FF8C00;
-    padding-right: 20px;
     float: left;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #F46324;
 }
 
 #sobre {
-    float: right;
+    background-color: #F46324;
     color: white;
-    position: relative;
-    background-color: #FF8C00;
-}
-
-#cadastro {
-    float: right;
+    padding: 5px;
 }
