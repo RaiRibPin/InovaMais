@@ -39,6 +39,12 @@ a:hover {
     border: white 3px solid;
 }
 
+#carrinho {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
 #sobre {
     display: flex;
     align-items: center;
@@ -51,6 +57,7 @@ a:hover {
 
 .cadastro {
     margin-right: 20px;
+    padding-top: 8px;
 }
 
 #usuario {
@@ -153,4 +160,29 @@ input {
     color: black;
     border-color: #1E90FF;
     background-color: lightskyblue
+}
+
+.botao_carrinho img {
+    width: 250px;
+    height: 250px;
+}
+
+.botao_carrinho {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.botao_home {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.botao_carrinho p {
+    padding-left: 30px;
+}
+
+.botao_home p {
+    padding-right: 20px;
 }
