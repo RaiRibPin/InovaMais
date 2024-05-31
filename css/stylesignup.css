@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans';
+    background-color: #F46324;
 }
 
 
@@ -84,3 +85,72 @@ a:hover {
 
 
 /* Menu fim */
+
+form {
+    width: 370px;
+    color: #1E90FF;
+}
+
+legend {
+    color: #1E90FF;
+    background-color: white;
+    border-radius: 5px;
+    border: #1E90FF 5px solid;
+    padding: 5px 5px 0 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
+fieldset {
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.200);
+    background-color: white;
+    border-radius: 20px;
+    border: #1E90FF 5px solid;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+#submit {
+    color: white;
+    background-color: #F46324;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+}
+
+#submit:hover {
+    background-color: #1E90FF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#data_nascimento {
+    cursor: pointer;
+}
+
+.sexo input {
+    cursor: pointer;
+}
+
+input {
+    color: black;
+    border-color: #1E90FF;
+    background-color: lightskyblue
+}

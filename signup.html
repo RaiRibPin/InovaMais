@@ -13,19 +13,17 @@
         <a id="logo" href="index.html"><img src="./Imagens/Icone/programming.ico">Inova+</a>
         <div id="menu1">
             <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="shopping.html">Shopping</a>
-            <a href="innovations.html">Innovations</a>
+            <a href="products.html">Periféricos</a>
+            <a href="shopping.html">Carrinho</a>
+            <a href="innovations.html">Inovações</a>
         </div>
         <div id="menu2">
             <a class="cadastro" href="signup.html">
-                <img src="./Imagens/Icone/user.png" id="usuario" alt="Ícone de usuário" title="Ícone de usuário"> Sign up
+                <img src="./Imagens/Icone/user.png" id="usuario" alt="Ícone de usuário" title="Ícone de usuário"> Cadastre-se
             </a>
-            <a id="sobre" href="about.html">About</a>
+            <a id="sobre" href="about.html">Sobre</a>
         </div>
     </nav>
-
-    <br><br><br><br><br><br>
 
     <div class="box">
         <form action="">
@@ -33,52 +31,54 @@
                 <legend><b>CADASTRE-SE</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <input type="text" name="nome" id="nome" class="inputUser" placeholder="Digite seu nome..." required>
                     <label for="nome">Nome Completo</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <input type="text" name="nome" id="nome" class="inputUser" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}.\d{3}.\d{3}-\d{1,2}" required>
                     <label for="nome">CPF</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <input type="email" name="email" id="email" class="inputUser" placeholder="Digite seu email..." required>
                     <label for="email">Email</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" placeholder="(xx) xxxxx-xxxx" pattern="\(\d{2}\) \d{4,5}-\d{4}" required>
                     <label for="telefone">Número de Celular</label>
                 </div>
                 <br><br>
-                <p>
-                    Sexo:
-                </p>
-                <input type="radio" name="genero" value="feminino" required>
-                <label for="feminino">Feminino</label>
-                <input type="radio" name="genero" value="masculino" required>
-                <label for="masculino">Masculino</label>
-                <input type="radio" name="genero" value="outro" required>
-                <label for="outro">Outro</label>
-                <br><br>
+                <div class="sexo">
+                    <p>
+                        Sexo:
+                    </p>
+                    <input type="radio" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" value="outro" required>
+                    <label for="outro">Outro</label>
+                </div>
+                <br><br><br>
                 <div class="inputBox">
                     <label for="data_nascimento"><b>Data de nascimento:</b></label>
                     <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <input type="text" name="cidade" id="cidade" class="inputUser" placeholder="Digite sua cidade..." required>
                     <label for="cidade">Cidade</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <input type="text" name="estado" id="estado" placeholder="Digite seu estado..." class="inputUser" required>
                     <label for="estado">Estado</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <input type="text" name="endereco" id="endereco" class="inputUser" placeholder="Bairro rua e número..." required>
                     <label for="endereco">Endereço</label>
                 </div>
                 <br><br>
