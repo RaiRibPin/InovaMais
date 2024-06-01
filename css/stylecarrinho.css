@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 body {
+    background-color: #F2F3F4;
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans';
@@ -92,49 +93,56 @@ a:hover {
 
 /* Menu fim */
 
-.videos {
-    margin: 20px 75px 20px 75px;
-}
-
-.videos img {
-    height: 200px;
-    width: 200px;
-}
-
-#video5 img {
-    height: 135px;
-    width: 135px;
-}
-
-#video7 img {
-    margin-left: 50px;
-}
-
-#video3 img {
-    height: 170px;
-    width: 170px;
-}
-
-.esquerda {
-    display: flex;
-    align-items: center;
-    border: #1E90FF 3px solid;
-}
-
-.direita {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    border: #F46324 3px solid;
-}
-
-iframe {
-    box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.295);
-}
-
-p {
-    text-align: center;
-    margin-left: 35px;
-    margin-right: 35px;
+.tabela {
     font-size: 20px;
+    margin: 40px 400px 40px 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #F46324;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.289);
+}
+
+tr,
+td,
+th {
+    padding: 10px;
+    border: 2px solid #F46324;
+}
+
+th {
+    background-color: #F46324;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+.chosen {
+    background-color: #ff8b5a;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 20px;
+}
+
+.total #compra {
+    border: none;
+    margin-left: 10px;
+}
+
+#bcompra {
+    display: contents;
+    font-size: 20px;
+    color: #F46324;
+    margin: 0;
+    float: none;
+}
+
+#bcompra:hover {
+    color: #ff8b5a;
 }

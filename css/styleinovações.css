@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans';
+    background-color: #F2F3F4;
 }
 
 
@@ -91,3 +92,50 @@ a:hover {
 
 
 /* Menu fim */
+
+.videos {
+    margin: 20px 75px 20px 75px;
+}
+
+.videos img {
+    height: 200px;
+    width: 200px;
+}
+
+#video5 img {
+    height: 135px;
+    width: 135px;
+}
+
+#video7 img {
+    margin-left: 50px;
+}
+
+#video3 img {
+    height: 170px;
+    width: 170px;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    border: #1E90FF 3px solid;
+}
+
+.direita {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: #F46324 3px solid;
+}
+
+iframe {
+    box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.295);
+}
+
+p {
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 20px;
+}
